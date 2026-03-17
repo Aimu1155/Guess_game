@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌸 可愛猜數字互動版 🌸</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 左側角色區 -->
+        <div class="character-area">
+            <img id="character" src="C:\Users\user\Desktop\辰\guess\images\character_idle.png.jpg" alt="角色立繪">
+            <p id="characterText">來猜數字吧～🎀</p>
+        </div>
+
+        <!-- 右側遊戲區 -->
+        <div class="game-area">
+            <h1>猜 1～100 的數字</h1>
+            <input type="number" id="guessInput" placeholder="輸入數字">
+            <button id="guessBtn">💖 猜一下！</button>
+            <p id="result"></p>
+            <button id="resetBtn">🔄 重新開始</button>
+
+            <div class="history-area">
+                <h2>📜 猜過的數字</h2>
+                <p id="history">尚未猜過任何數字</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+body {
+    background-color: #FFF0F5;
+    font-family: "Comic Sans MS", Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 800px;
+    width: 100%;
+}
+
+/* 左側角色區 */
+.character-area {
+    background-color: #FFE4E1;
+    padding: 20px;
+    border-radius: 15px;
+    flex: 1 1 250px;
+    text-align: center;
+}
+
+.character-area img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+#characterText {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+/* 右側遊戲區 */
+.game-area {
+    background-color: #FFF8DC;
+    padding: 20px;
+    border-radius: 15px;
+    flex: 1 1 300px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+#result {
+    font-size: 16px;
+    margin-top: 10px;
+    min-height: 24px;
+}
+
+.history-area {
+    margin-top: 15px;
+}
+
+.history-area h2 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
